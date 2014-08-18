@@ -15,7 +15,105 @@ angular.module('angularMaskApp')
       'Karma'
     ];
   })
-  .controller('MaskCtrl', function ($scope, leafletData) {
+  .controller('MaskCtrl', function ($scope, $rootScope, leafletData, leafletHelpers) {
+
+    var geodata = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            'show': true,
+            'color': '#201872',
+            'missions': []
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -75.15296459197998,
+                  39.945607977851836
+                ],
+                [
+                  -75.15296459197998,
+                  39.94763137379424
+                ],
+                [
+                  -75.1504111289978,
+                  39.94763137379424
+                ],
+                [
+                  -75.1504111289978,
+                  39.945607977851836
+                ],
+                [
+                  -75.15296459197998,
+                  39.945607977851836
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            'show': true,
+            'color': '#9C82FB',
+            'missions': [
+              {
+                location: [
+                  -75.14733731746674,
+                  39.94571901942505
+                ],
+                title: 'A Bad Thing'
+              },
+              {
+                location: [
+                  -75.14574408531189,
+                  39.94550104875913
+                ],
+                title: 'Another Bad Thing'
+              },
+              {
+                location: [
+                  -75.14697253704071,
+                  39.94478955477134
+                ],
+                title: 'A Third Bad Thing'
+              }
+            ]
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -75.14787912368774,
+                  39.94392999436212
+                ],
+                [
+                  -75.14787912368774,
+                  39.946183747016605
+                ],
+                [
+                  -75.14489650726318,
+                  39.946183747016605
+                ],
+                [
+                  -75.14489650726318,
+                  39.94392999436212
+                ],
+                [
+                  -75.14787912368774,
+                  39.94392999436212
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    };
 
     var red = [[39.9487910981458,-75.14859795570374],[39.950871972692845,-75.16373634338379],[39.9406068075672,-75.16545295715332],[39.94126487717428,-75.1791000366211],[39.93422320394703,-75.18013000488281],[39.93093245403986,-75.15008926391602],[39.9487910981458,-75.14859795570374]];
 
@@ -60,37 +158,94 @@ angular.module('angularMaskApp')
       },
     };
 
+    function onEachFeature(feature, layer) {
+      var safeApply = leafletHelpers.safeApply, isDefined = leafletHelpers.isDefined, leafletScope = $scope, leafletGeoJSON = {};
+      layer.on({
+        click: function (e) {
+          safeApply(leafletScope, function () {
+            var geojson = feature;
+            $rootScope.$broadcast('leafletDirectiveMap.geojsonClick', geojson, e);
+          });
+        },
+      });
+    }
+
+    function style(feature) {
+      return {
+        fillColor: "red",
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        fillOpacity: 0.7
+      };
+    }
+
+    function mapGeoJson() {
+      $scope.geojson = {
+        data: geodata,
+        style: style,
+        filter: function (feature) {
+            return feature.properties.show;
+        },
+        // onEachFeature: onEachFeature
+      }
+    };
+
+    function resetZoom() {
+      // This is just a filler function; we should plug in however the extent
+      // is determined when the map page loads
+      angular.extend($scope, {
+        philadelphia: {
+          lat: 39.94817,
+          lng: -75.14856,
+          zoom: 13
+        },
+      });
+    }
 
     leafletData.getMap().then(function(map) {
 
-      // map.fitBounds(red);
+      function focusOnMission(geojson, e) {
+        var target = e.target;
 
-      // var demoMask = L.mask(red).addTo(map);
+        map.fitBounds(target._latlngs);
 
-      // demoMask.on('click', function(e) {
-      //   console.log(e);
-      // });
+        target.setStyle({
+          fillOpacity: 0
+        });
 
-      updateIcon(local_icons.div_icon, 3);
+        angular.forEach(target.feature.properties.missions, function(value, key) {
+          console.log('111111!!!');
+          updateIcon(local_icons.div_icon, key + 1);
+          console.log(value.location[0], value.location[1]);
+          $scope.markers.push({
+              lat: value.location[1],
+              lng: value.location[0],
+              message: 'My Added Marker Temporary',
+              layer: 'selectedMission',
+              icon: angular.copy(local_icons.div_icon)
+          });
+          console.log($scope.markers, 'new marker scope');
+        })
 
-      $scope.markers.push({
-          lat: 39.94817,
-          lng: -75.14856,
-          message: 'My Added Marker Temporary',
-          layer: 'selectedMission',
-          icon: angular.copy(local_icons.div_icon)
+        $scope.demoMask = L.mask(target._latlngs).addTo(map);
+        $scope.demoMask.on('click', function(e) {
+          $scope.markers = [];
+          map.removeLayer(this);
+          target.setStyle({
+            fillOpacity: 0.7
+          });
+          resetZoom();
+        });
+        
+      }
+
+      $scope.$on('leafletDirectiveMap.geojsonClick', function(target, geojson, e){
+        console.log('target', target, 'geojson', geojson, 'event', e);
+        focusOnMission(geojson, e);
       });
 
-      updateIcon(local_icons.div_icon, 4);
-
-      $scope.markers.push({
-          lat: 39.94817,
-          lng: -75.16856,
-          message: "My Added Marker Perm",
-          icon: local_icons.div_icon
-      });
-
-      console.log(1, $scope.markers);
+      mapGeoJson();
 
     });
 
@@ -98,7 +253,9 @@ angular.module('angularMaskApp')
       philadelphia: {
         lat: 39.94817,
         lng: -75.14856,
-        zoom: 10
+        zoom: 13
+      },
+      geojson: {
       },
       layers: {
         baselayers: {
@@ -125,4 +282,7 @@ angular.module('angularMaskApp')
         scrollWheelZoom: false
       }
     });
+
+    console.log(421, $scope.geojson);
+
   });
