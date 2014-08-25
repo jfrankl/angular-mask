@@ -66,28 +66,28 @@ angular.module('angularMaskApp')
                   -75.14733731746674,
                   39.94571901942505
                 ],
-                title: 'A Bad Thing'
+                title: 'An Event'
               },
               {
                 location: [
                   -75.14790408531189,
                   39.94550104875913
                 ],
-                title: 'Another Bad Thing'
+                title: 'Another Event'
               },
               {
                 location: [
                   -75.14697253704071,
                   39.94448955477134
                 ],
-                title: 'A Third Bad Thing'
+                title: 'A Third Event'
               },
               {
                 location: [
                   -75.14454553704071,
                   39.94528955477134
                 ],
-                title: 'A Third Bad Thing'
+                title: 'A Fourth Event'
               }
             ]
           },
@@ -181,9 +181,9 @@ angular.module('angularMaskApp')
       return {
         fillColor: "red",
         weight: 2,
+        color: 'red',
         opacity: 1,
-        color: 'white',
-        fillOpacity: 0.7
+        fillOpacity: 0.6
       };
     }
 
@@ -218,7 +218,8 @@ angular.module('angularMaskApp')
         map.fitBounds(target._latlngs);
 
         target.setStyle({
-          fillOpacity: 0
+          fillOpacity: 0,
+          weight: 0
         });
 
         angular.forEach(target.feature.properties.missions, function(value, key) {
@@ -240,7 +241,8 @@ angular.module('angularMaskApp')
           $scope.markers = [];
           map.removeLayer(this);
           target.setStyle({
-            fillOpacity: 0.7
+            fillOpacity: 0.6,
+            weight: 0
           });
           resetZoom();
         });
@@ -266,14 +268,34 @@ angular.module('angularMaskApp')
       },
       layers: {
         baselayers: {
-          osm: {
-            name: 'OpenStreetMap',
+          stamen: {
+            name: 'Stamen Toner',
             type: 'xyz',
             url: 'http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png',
             layerOptions: {
               attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
             }
-          }
+          },
+          osm: {
+            name: 'OpenStreetMap',
+            type: 'xyz',
+            url: 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+            layerOptions: {
+              subdomains: ['a', 'b', 'c'],
+              attribution: '© OpenStreetMap contributors',
+              continuousWorld: true
+            }
+          },
+          cycle: {
+            name: 'OpenCycleMap',
+            type: 'xyz',
+            url: 'http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png',
+            layerOptions: {
+              subdomains: ['a', 'b', 'c'],
+              attribution: '© OpenCycleMap contributors - © OpenStreetMap contributors',
+              continuousWorld: true
+            }
+          },
         },
         overlays: {
           selectedMission: {
