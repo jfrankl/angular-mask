@@ -70,7 +70,7 @@ angular.module('angularMaskApp')
               },
               {
                 location: [
-                  -75.14574408531189,
+                  -75.14790408531189,
                   39.94550104875913
                 ],
                 title: 'Another Bad Thing'
@@ -78,7 +78,14 @@ angular.module('angularMaskApp')
               {
                 location: [
                   -75.14697253704071,
-                  39.94478955477134
+                  39.94448955477134
+                ],
+                title: 'A Third Bad Thing'
+              },
+              {
+                location: [
+                  -75.14454553704071,
+                  39.94528955477134
                 ],
                 title: 'A Third Bad Thing'
               }
