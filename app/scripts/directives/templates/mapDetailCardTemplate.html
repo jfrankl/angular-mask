@@ -1,0 +1,6 @@
+<h1>{{ data.event_model }}</h1>
+<h2>{{ data.type }}</h2>
+<p>There were {{ data.data.length }} {{ data.event_model }} events in the last 48 hours at</p>
+<ul>
+    <li ng-repeat="event in data.data">{{ event.address }}</li>
+</ul>

@@ -201,21 +201,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.299,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153038",
@@ -437,21 +490,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.525,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153037",
@@ -673,21 +779,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 94.88,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153036",
@@ -917,21 +1076,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 95.97,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153035",
@@ -1153,21 +1365,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.093,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153034",
@@ -1389,21 +1654,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 94.386,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153033",
@@ -1625,21 +1943,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.977,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153032",
@@ -1861,21 +2232,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.314,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153031",
@@ -2105,21 +2529,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 97.121,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153030",
@@ -2341,21 +2818,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 95.97,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153029",
@@ -2577,21 +3107,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 97.656,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153028",
@@ -2813,21 +3396,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.833,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153027",
@@ -3049,21 +3685,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 97.903,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153026",
@@ -3285,21 +3974,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 83.775,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153025",
@@ -3521,21 +4263,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 85.174,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153024",
@@ -3765,21 +4560,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 90.459,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153023",
@@ -4001,21 +4849,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 91.59,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153022",
@@ -4237,21 +5138,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 84.495,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153021",
@@ -4473,21 +5427,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 84.701,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153020",
@@ -4709,21 +5716,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 90.726,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153019",
@@ -4945,21 +6005,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 97.244,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153018",
@@ -5189,21 +6302,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 88.217,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153017",
@@ -5425,21 +6591,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 83.961,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153016",
@@ -5661,21 +6880,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 85.092,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153015",
@@ -5897,21 +7169,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 85.832,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153014",
@@ -6133,21 +7458,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 87.374,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153013",
@@ -6369,21 +7747,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 84.433,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153012",
@@ -6605,21 +8036,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.586,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153011",
@@ -6841,21 +8325,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 97.491,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153010",
@@ -7077,21 +8614,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.463,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153009",
@@ -7313,21 +8903,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.136,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153008",
@@ -7549,21 +9192,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.157,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153007",
@@ -7785,21 +9481,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.157,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153006",
@@ -8021,21 +9770,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.334,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153005",
@@ -8257,21 +10059,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.396,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153004",
@@ -8493,21 +10348,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 97.594,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153003",
@@ -8729,21 +10637,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.108,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153002",
@@ -8965,21 +10926,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.895,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153001",
@@ -9201,21 +11215,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.28,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1153000",
@@ -9437,21 +11504,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 97.409,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152999",
@@ -9673,21 +11793,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.149,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152998",
@@ -9909,21 +12082,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.422,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152997",
@@ -10145,21 +12371,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.979,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152996",
@@ -10381,21 +12660,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.54,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152995",
@@ -10617,21 +12949,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 93.296,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152994",
@@ -10853,21 +13238,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 94.407,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152993",
@@ -11089,21 +13527,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 95.147,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152992",
@@ -11325,21 +13816,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 93.44,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152991",
@@ -11561,21 +14105,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.499,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152990",
@@ -11797,21 +14394,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 93.523,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152989",
@@ -12033,21 +14683,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.684,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152988",
@@ -12269,21 +14972,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.458,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152987",
@@ -12505,21 +15261,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 95.928,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152986",
@@ -12741,21 +15550,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.915,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152985",
@@ -12977,21 +15839,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.334,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152984",
@@ -13213,21 +16128,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.628,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152983",
@@ -13449,21 +16417,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 92.392,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152982",
@@ -13685,21 +16706,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 96.484,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152981",
@@ -13929,21 +17003,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 95.62,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152980",
@@ -14165,21 +17292,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.075,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152979",
@@ -14401,21 +17581,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.211,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152978",
@@ -14637,21 +17870,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.91,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152977",
@@ -14889,21 +18175,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.794,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152976",
@@ -15125,21 +18464,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.116,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152975",
@@ -15361,21 +18753,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.787,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152974",
@@ -15597,21 +19042,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.519,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152973",
@@ -15833,21 +19331,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.972,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152972",
@@ -16069,21 +19620,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.527,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152971",
@@ -16305,21 +19909,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.17,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152970",
@@ -16541,21 +20198,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.005,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152969",
@@ -16785,21 +20495,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.733,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152968",
@@ -17021,21 +20784,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.424,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152967",
@@ -17257,21 +21073,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.568,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152966",
@@ -17493,21 +21362,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.766,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152965",
@@ -17729,21 +21651,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.671,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152964",
@@ -17965,21 +21940,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.733,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152963",
@@ -18201,21 +22229,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.404,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152962",
@@ -18437,21 +22518,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.548,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152961",
@@ -18673,21 +22807,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.527,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152960",
@@ -18909,21 +23096,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.095,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152959",
@@ -19145,21 +23385,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.301,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152958",
@@ -19381,21 +23674,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.663,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152957",
@@ -19617,21 +23963,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.753,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152956",
@@ -19853,21 +24252,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.26,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152955",
@@ -20089,21 +24541,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.177,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152954",
@@ -20325,21 +24830,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.746,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152953",
@@ -20569,21 +25127,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.157,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152952",
@@ -20805,21 +25416,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.013,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152951",
@@ -21041,21 +25705,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.486,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152950",
@@ -21277,21 +25994,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.643,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152949",
@@ -21513,21 +26283,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.239,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152948",
@@ -21749,21 +26572,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.848,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152947",
@@ -21985,21 +26861,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.383,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152946",
@@ -22221,21 +27150,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.774,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152945",
@@ -22457,21 +27439,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.63,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152944",
@@ -22693,21 +27728,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.622,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152943",
@@ -22929,21 +28017,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.342,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152942",
@@ -23165,21 +28306,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.725,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152941",
@@ -23401,21 +28595,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.794,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152940",
@@ -23637,21 +28884,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.835,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152939",
@@ -23873,21 +29173,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.815,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152938",
@@ -24109,21 +29462,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.198,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152937",
@@ -24345,21 +29751,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.363,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152936",
@@ -24581,21 +30040,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.404,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152935",
@@ -24817,21 +30329,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.034,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152934",
@@ -25053,21 +30618,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 98.705,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152933",
@@ -25289,21 +30907,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.609,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152932",
@@ -25525,21 +31196,74 @@ angular.module('angularMaskApp')
                 "risk_percentile": 99.712,
                 "related_info": {
                     "recent_events": [
-                      {
-                        "type": "Assault",
-                        "address": "492N 500th Street",
-                        "latlng": [-76.9962745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "Assault",
-                        "address": "5000N 500th Street",
-                        "latlng": [-76.9862745500105,38.90182856537368]
-                      },
-                      {
-                        "type": "MVT",
-                        "address": "204N 500th Street",
-                        "latlng": [-76.9812745500105,38.90182856537368]
-                      }
+                        {
+                            "importance": 1,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "Aggravated Assault Firearm"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "1600 BLOCK MARGARET ST",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "Aggravated Assault"
+                        },
+                        {
+                            "importance": 2,
+                            "data": [
+                                {
+                                    "occurred_to": "2014-05-20T00:00:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08363423999997,
+                                        40.01673996999999
+                                    ],
+                                    "address": "120 Runner Road",
+                                    "occurred_from": "2014-05-20T00:00:00+00:00"
+                                },
+                                {
+                                    "occurred_to": "2014-05-19T19:52:00+00:00",
+                                    "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                    "event_classes": [
+                                        "MVT"
+                                    ],
+                                    "location": [
+                                        -75.08307338999997,
+                                        40.01653017999998
+                                    ],
+                                    "address": "220 Runner Road",
+                                    "occurred_from": "2014-05-19T19:52:00+00:00"
+                                }
+                            ],
+                            "version": 1,
+                            "type": "recent_events",
+                            "event_model": "MVT"
+                        }
                     ]
                 },
                 "id": "1152931",

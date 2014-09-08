@@ -8,11 +8,11 @@
  */
 angular.module('angularMaskApp')
   .controller('mapDetailController', ['$scope', function($scope) {
-    $scope.hope = $scope.data.features[0];
+    $scope.hope = $scope.data.features[0].properties.related_info.recent_events;
   }])
   .directive('mapDetail', function () {
     return {
-      template: '<div>{{hope}}</div>',
+      templateUrl: 'scripts/directives/templates/mapDetailTemplate.html',
       scope: {
         data: '='
       },

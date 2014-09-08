@@ -7,12 +7,23 @@
  * # mapDetailCard
  */
 angular.module('angularMaskApp')
+    .controller('mapDetailCardController', ['$scope', function($scope) {
+    }])
   .directive('mapDetailCard', function () {
     return {
-      template: '<div></div>',
+      templateUrl: 'scripts/directives/templates/mapDetailCardTemplate.html',
+      require : "^mapDetail",
       restrict: 'E',
-      link: function postLink(scope, element, attrs) {
-        element.text('this is the mapDetailCard directive');
+      controller: 'mapDetailCardController',
+      scope: {
+        data: '='
+      },
+      link: function postLink(scope, element, attrs, mapDetailCardController) {
+        console.log(mapDetailCardController);
+        element.on('click', function(a, b, c) {
+            console.log(scope, element, attrs, a, b, c);
+            element.addClass('active');
+        })
       }
     };
   });

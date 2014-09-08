@@ -18,7 +18,7 @@ angular.module('angularMaskApp')
 
       this.mask.on('click', function() {
         this.removeMask();
-      });      
+      });
 
     }
   });
