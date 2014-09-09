@@ -7,7 +7,7 @@
  * # mapDetail
  */
 angular.module('angularMaskApp')
-  .controller('mapDetailController', ['$scope', function($scope) {
+  .controller('mapDetailController', ['$scope', 'createMask', function($scope, createMask) {
 
     // test
     this.initialize = function() {
@@ -21,8 +21,8 @@ angular.module('angularMaskApp')
 
     $scope.select = function(card) {
         $scope.$emit('tango', [1,2,3]);
-        angular.forEach($scope.missionCards, function (eachCard) { 
-            eachCard.selected = angular.equals(card, eachCard); 
+        angular.forEach($scope.missionCards, function (eachCard) {
+            eachCard.selected = angular.equals(card, eachCard);
         });
     };
 
@@ -31,7 +31,8 @@ angular.module('angularMaskApp')
     return {
         templateUrl: 'scripts/directives/templates/mapDetailTemplate.html',
         scope: {
-            missionCards: '='
+            missionCards: '=',
+            map: '='
         },
         controller: 'mapDetailController',
         restrict: 'E',

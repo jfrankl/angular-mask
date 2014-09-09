@@ -8,7 +8,7 @@
  * Controller of the angularMaskApp
  */
 angular.module('angularMaskApp')
-  .controller('MaskCtrl', function ($scope, $rootScope, leafletData, leafletHelpers, geodata, Mapzoomservice) {
+  .controller('MaskCtrl', function ($scope, $rootScope, leafletData, leafletHelpers, geodata, createMask, Mapzoomservice) {
     $scope.maskData = geodata.features[0].properties.related_info.recent_events;
     console.log("tile");
     function updateIcon(icon, value) {
@@ -78,11 +78,31 @@ angular.module('angularMaskApp')
       });
     }
 
+
     leafletData.getMap().then(function(map) {
+
+      $scope.map = map;
+
+      mapGeoJson();
+
+      $scope.$on('leafletDirectiveMap.geojsonClick', function(target, geojson, e){
+        $scope.maskData = geojson.properties.related_info.recent_events;
+        Mapzoomservice.importData(geojson, e, map);
+
+        map.fitBounds(e.layer._latlngs);
+
+        $scope.mask = new createMask(e.layer._latlngs, map).addTo(map);
+
+        $scope.mask.on('click', function() {
+          this.removeMask();
+        });
+
+      });
 
       function focusOnMission(geojson, e) {
 
-        Mapzoomservice.importData(geojson, e, map);
+
+
         // var target = e.target;
 
         // map.fitBounds(target._latlngs);
@@ -114,19 +134,21 @@ angular.module('angularMaskApp')
         //   });
         //   resetZoom();
         // });
-        
+
       }
 
-      $scope.$on('leafletDirectiveMap.geojsonClick', function(target, geojson, e){
-        console.log("before", $scope.maskData);
-        $scope.maskData = geojson.properties.related_info.recent_events;
-        console.log("after", $scope.maskData);
-        focusOnMission(geojson, e);
-      });
-
-      mapGeoJson();
-
     });
+
+
+
+
+
+
+
+
+
+
+
 
     angular.extend($scope, {
       philadelphia: {
