@@ -9,7 +9,7 @@
  */
 angular.module('angularMaskApp')
   .controller('MaskCtrl', function ($scope, $rootScope, leafletData, leafletHelpers, geodata, Mapzoomservice) {
-    $scope.maskData = geodata;
+    $scope.maskData = geodata.features[0].properties.related_info.recent_events;
     console.log("tile");
     function updateIcon(icon, value) {
       icon['html'] = htmlIconTemplate(value);
@@ -81,6 +81,7 @@ angular.module('angularMaskApp')
     leafletData.getMap().then(function(map) {
 
       function focusOnMission(geojson, e) {
+
         Mapzoomservice.importData(geojson, e, map);
         // var target = e.target;
 
@@ -117,7 +118,9 @@ angular.module('angularMaskApp')
       }
 
       $scope.$on('leafletDirectiveMap.geojsonClick', function(target, geojson, e){
-        console.log("clickk");
+        console.log("before", $scope.maskData);
+        $scope.maskData = geojson.properties.related_info.recent_events;
+        console.log("after", $scope.maskData);
         focusOnMission(geojson, e);
       });
 

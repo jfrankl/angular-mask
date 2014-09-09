@@ -233,7 +233,7 @@ angular.module('angularMaskApp')
                             ],
                             "version": 1,
                             "type": "recent_events",
-                            "event_model": "Aggravated Assault"
+                            "event_model": "Illegal BBQ"
                         },
                         {
                             "importance": 2,
@@ -24548,32 +24548,32 @@ angular.module('angularMaskApp')
                                     "occurred_to": "2014-05-20T00:00:00+00:00",
                                     "self": "https://staging.hunchlab.com/api/events/5514611/",
                                     "event_classes": [
-                                        "Aggravated Assault Firearm"
+                                        "Illegality"
                                     ],
                                     "location": [
                                         -75.08363423999997,
                                         40.01673996999999
                                     ],
-                                    "address": "1600 BLOCK MARGARET ST",
+                                    "address": "39 S HENRY ST",
                                     "occurred_from": "2014-05-20T00:00:00+00:00"
                                 },
                                 {
                                     "occurred_to": "2014-05-19T19:52:00+00:00",
                                     "self": "https://staging.hunchlab.com/api/events/5514584/",
                                     "event_classes": [
-                                        "Aggravated Assault Firearm"
+                                        "Illegality"
                                     ],
                                     "location": [
                                         -75.08307338999997,
                                         40.01653017999998
                                     ],
-                                    "address": "1600 BLOCK MARGARET ST",
+                                    "address": "1500 BLOCK SAMSON ST",
                                     "occurred_from": "2014-05-19T19:52:00+00:00"
                                 }
                             ],
                             "version": 1,
                             "type": "recent_events",
-                            "event_model": "Aggravated Assault"
+                            "event_model": "Having an Illegal Park BBQ"
                         },
                         {
                             "importance": 2,
