@@ -19,8 +19,7 @@ angular.module('angularMaskApp')
         data: '='
       },
       link: function postLink(scope, element, attrs, ctrl) {
-        console.log(ctrl);
-        ctrl.addTab();
+        ctrl.initialize();
       }
     };
   });

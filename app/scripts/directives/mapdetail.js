@@ -9,41 +9,29 @@
 angular.module('angularMaskApp')
   .controller('mapDetailController', ['$scope', function($scope) {
 
-    $scope.cards = $scope.data;
-
-    _.first($scope.cards).selected = true;
-
     // test
-    this.addTab = function(tab) {
-        console.log(tab);
+    this.initialize = function() {
+        _.first($scope.missionCards).selected = true;
     }
 
     $scope.setCards = function(cards) {
         console.log('setting cards');
-        $scope.cards = $scope.data;
+        // $scope.cards = $scope.cards;
     }
 
     $scope.select = function(card) {
         $scope.$emit('tango', [1,2,3]);
-        angular.forEach($scope.cards, function (eachCard) { 
+        angular.forEach($scope.missionCards, function (eachCard) { 
             eachCard.selected = angular.equals(card, eachCard); 
         });
     };
-
-    $scope.$watch('data', function(newValue, oldValue) {
-        if (newValue) {
-            console.log("I see a data change!");
-            $scope.setCards(newValue);
-            _.first($scope.cards).selected = true;
-        }
-    }, true);
 
   }])
   .directive('mapDetail', function () {
     return {
         templateUrl: 'scripts/directives/templates/mapDetailTemplate.html',
         scope: {
-            data: '='
+            missionCards: '='
         },
         controller: 'mapDetailController',
         restrict: 'E',
