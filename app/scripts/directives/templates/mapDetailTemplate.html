@@ -1,4 +1,4 @@
-<map-detail-card ng-repeat="card in hope" data="card">{{ card }}</map-detail-card>
+<map-detail-card ng-repeat="card in hope" ng-click="select(card)" ng-class="{active: card.selected}" data="card"></map-detail-card>
 
 <hr>
 

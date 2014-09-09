@@ -19,6 +19,8 @@ angular.module('angularMaskApp')
       return '<div class="bount-icon" style="background-color: #FF5500">'+value+'<div>'
     }
 
+    $scope.$on('tango', function(event, mass) {console.log(mass)});
+
     var local_icons = {
       div_icon: {
         type: 'div',
