@@ -19,7 +19,7 @@ angular.module('angularMaskApp')
         data: '='
       },
       link: function postLink(scope, element, attrs, ctrl) {
-        ctrl.initialize();
+        // ctrl.initialize();
       }
     };
   });

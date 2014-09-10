@@ -7,24 +7,23 @@
  * # mapDetail
  */
 angular.module('angularMaskApp')
-  .controller('mapDetailController', ['$scope', 'createMask', function($scope, createMask) {
-
-    // test
-    this.initialize = function() {
-        _.first($scope.missionCards).selected = true;
-    }
-
-    $scope.setCards = function(cards) {
-        console.log('setting cards');
-        // $scope.cards = $scope.cards;
-    }
+  .controller('mapDetailController', ['$scope', '$rootScope', 'createMask', function($scope, $rootScope, createMask) {
 
     $scope.select = function(card) {
-        $scope.$emit('tango', [1,2,3]);
-        angular.forEach($scope.missionCards, function (eachCard) {
-            eachCard.selected = angular.equals(card, eachCard);
-        });
+        $scope.selected = card;
+        console.log('emit');
+        $rootScope.$emit('selectCard', card);
     };
+
+    $scope.select(_.first($scope.missionCards));
+
+    $rootScope.$on('addMask', function(event, mass) {
+        $scope.select(_.first(mass));
+    })
+
+    $scope.isSelected = function(card) {
+        return angular.equals(card, $scope.selected);
+    }
 
   }])
   .directive('mapDetail', function () {
