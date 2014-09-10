@@ -10,6 +10,7 @@ angular.module('angularMaskApp')
   .controller('mapDetailController', ['$scope', '$rootScope', 'createMask', function($scope, $rootScope, createMask) {
 
     $scope.select = function(card) {
+        console.log($scope.missionCards);
         $scope.selected = card;
         console.log('emit');
         $rootScope.$emit('selectCard', card);
@@ -17,8 +18,13 @@ angular.module('angularMaskApp')
 
     $scope.select(_.first($scope.missionCards));
 
-    $rootScope.$on('addMask', function(event, mass) {
-        $scope.select(_.first(mass));
+    $rootScope.$on('addMask', function(event, mask) {
+        $scope.select(_.first(mask));
+        $scope.displayDetailCard = true;
+    })
+
+    $rootScope.$on('deleteMask', function(event) {
+        $scope.displayDetailCard = false;
     })
 
     $scope.isSelected = function(card) {

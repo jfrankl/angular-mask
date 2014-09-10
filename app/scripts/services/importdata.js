@@ -789,8 +789,8 @@ angular.module('angularMaskApp')
                                         "Aggravated Assault Firearm"
                                     ],
                                     "location": [
-                                      -76.9862245500105,
-                                      38.90152856537368
+                                        -77.0274697967444,
+                                        38.89458519895012
                                     ],
                                     "address": "1600 BLOCK MARGARET ST",
                                     "occurred_from": "2014-05-20T00:00:00+00:00"
@@ -802,8 +802,8 @@ angular.module('angularMaskApp')
                                         "Aggravated Assault Firearm"
                                     ],
                                     "location": [
-                                      -76.9962745500105,
-                                      38.90182856537368
+                                        -77.0279697967444,
+                                        38.84198519895012
                                     ],
                                     "address": "1600 BLOCK MARGARET ST",
                                     "occurred_from": "2014-05-19T19:52:00+00:00"
@@ -1086,8 +1086,8 @@ angular.module('angularMaskApp')
                                         "Aggravated Assault Firearm"
                                     ],
                                     "location": [
-                                      -76.9962745500105,
-                                      38.90182856537368
+                                        -76.98178297358992,
+                                        38.884349171681485
                                     ],
                                     "address": "1600 BLOCK MARGARET ST",
                                     "occurred_from": "2014-05-20T00:00:00+00:00"
@@ -1099,8 +1099,8 @@ angular.module('angularMaskApp')
                                         "Aggravated Assault Firearm"
                                     ],
                                     "location": [
-                                      -76.9962745500105,
-                                      38.90182856537368
+                                        -76.97978297358992,
+                                        38.889329171681485
                                     ],
                                     "address": "1600 BLOCK MARGARET ST",
                                     "occurred_from": "2014-05-19T19:52:00+00:00"
@@ -1120,8 +1120,8 @@ angular.module('angularMaskApp')
                                         "MVT"
                                     ],
                                     "location": [
-                                        -75.08263423999997,
-                                        40.01675996999999
+                                        -76.99345297358992,
+                                        38.884249171681485
                                     ],
                                     "address": "120 Runner Road",
                                     "occurred_from": "2014-05-20T00:00:00+00:00"
@@ -1133,8 +1133,8 @@ angular.module('angularMaskApp')
                                         "MVT"
                                     ],
                                     "location": [
-                                      -76.9942745500105,
-                                      38.90482856537368
+                                        -76.988178297358992,
+                                        38.854349171681485
                                     ],
                                     "address": "220 Runner Road",
                                     "occurred_from": "2014-05-19T19:52:00+00:00"
