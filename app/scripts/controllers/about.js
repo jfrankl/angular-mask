@@ -57,7 +57,7 @@ angular.module('angularMaskApp')
     function maskGeojsonStyle(color) {
         return {
             fillOpacity: 0,
-            weight: 10,
+            weight: 5,
             stroke: color
         }
     }
@@ -73,8 +73,7 @@ angular.module('angularMaskApp')
       }
     };
 
-    $rootScope.$on('selectCard', function(event, card) {
-        console.log(card, 4);
+    $rootScope.$on('selectCard', function(event, card, happened) {
         var data = card.data;
         $scope.markers = [];
         angular.forEach(data, function(d, key) {
@@ -87,17 +86,22 @@ angular.module('angularMaskApp')
               icon: angular.copy(local_icons.div_icon)
           });
         })
+        if (!happened) {
+            $scope.markers = [];
+        }
     })
 
+    $scope.maxed = "100%";
+
     function onGeojsonClick(map, recentEvents, latlngs, color, target) {
+        $scope.maxed = "40%";
         $scope.maskData = recentEvents;
-        target.setStyle(maskGeojsonStyle(color));
         $scope.previousView = [map.getCenter(), map.getZoom()];
         map.fitBounds(latlngs);
         $scope.mask = new createMask(latlngs, map).addTo(map);
+        target.setStyle(maskGeojsonStyle(color)).bringToFront();
         $scope.mapDetailVisible = true;
         $rootScope.$broadcast('addMask', $scope.maskData);
-
     }
 
     function onMaskClick(map, mask, color, target) {
@@ -108,6 +112,7 @@ angular.module('angularMaskApp')
         $scope.mapDetailVisible = false;
         $rootScope.$broadcast('deleteMask');
         $scope.markers = [];
+        $scope.maxed = "100%";
     }
 
     leafletData.getMap().then(function(map) {

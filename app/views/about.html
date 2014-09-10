@@ -1,6 +1,4 @@
-<p>This is the about view.</p>
-
-<div ng-controller="MaskCtrl">
-    <leaflet defaults="defaults" center="philadelphia" geojson="geojson" layers="layers" markers="markers" height="400px" width="100%"></leaflet>
+<div ng-controller="MaskCtrl" class="fullheight">
+    <leaflet defaults="defaults" center="philadelphia" geojson="geojson" layers="layers" markers="markers" height="100%" ng-style="{ 'width' : maxed }"></leaflet>
     <map-detail mission-cards="maskData" map="map"></map-detail>
 </div>

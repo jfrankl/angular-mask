@@ -11,7 +11,6 @@ angular.module('angularMaskApp')
   .factory('createMask', ['leafletData', 'leafletHelpers', function (leafletData, leafletHelpers) {
     L.Mask = L.Polygon.extend({
       options: {
-        noClip: true,
         outsideBoundary: [[-90, -360], [90, 360], [90, -360], [-90, 360]],
         stroke: false,
         fillOpacity: 0.5,
