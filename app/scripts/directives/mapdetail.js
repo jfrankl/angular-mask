@@ -23,11 +23,6 @@ angular.module('angularMaskApp')
 
     $rootScope.$on('addMask', function(event, mask) {
         $scope.select(_.first(mask));
-        $scope.displayDetailCard = true;
-    })
-
-    $rootScope.$on('deleteMask', function(event) {
-        $scope.displayDetailCard = false;
     })
 
     $scope.isSelected = function(card) {

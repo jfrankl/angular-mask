@@ -8,7 +8,7 @@
  * Controller of the angularMaskApp
  */
 angular.module('angularMaskApp')
-  .controller('MaskCtrl', function ($scope, $rootScope, leafletData, leafletHelpers, geodata, createMask, Mapzoomservice) {
+  .controller('MaskCtrl', function ($scope, $rootScope, $timeout, leafletData, leafletHelpers, geodata, createMask, Mapzoomservice) {
     $scope.maskData = geodata.features[0].properties.related_info.recent_events;
     function updateIcon(icon, value) {
       icon['html'] = htmlIconTemplate(value);
@@ -91,33 +91,42 @@ angular.module('angularMaskApp')
         }
     })
 
-    $scope.maxed = "100%";
+    $scope.mapWidth = "100%";
+    $scope.displayDetailCard = false;
 
     function onGeojsonClick(map, recentEvents, latlngs, color, target) {
-        $scope.maxed = "40%";
         $scope.maskData = recentEvents;
         $scope.previousView = [map.getCenter(), map.getZoom()];
         map.fitBounds(latlngs);
+        $scope.displayDetailCard = true;
+        $scope.mapWidth = "50%";
         $scope.mask = new createMask(latlngs, map).addTo(map);
         target.setStyle(maskGeojsonStyle(color)).bringToFront();
-        $scope.mapDetailVisible = true;
+        $scope.separated = true;
         $rootScope.$broadcast('addMask', $scope.maskData);
+        $timeout(function(){
+            console.log('timeout');
+           map.invalidateSize(false);
+        });
     }
 
     function onMaskClick(map, mask, color, target) {
         mask.removeMask();
         target.setStyle(standardGeojsonStyle(target.feature));
-        map.setView($scope.previousView[0], $scope.previousView[1]);
         $scope.mask = undefined;
-        $scope.mapDetailVisible = false;
+        $scope.mapWidth = "100%";
+        $scope.displayDetailCard = false;
+        map.setView($scope.previousView[0], $scope.previousView[1]);
+        map.invalidateSize(false);
         $rootScope.$broadcast('deleteMask');
         $scope.markers = [];
-        $scope.maxed = "100%";
+        $timeout(function(){
+            console.log('timeout');
+           map.invalidateSize(false);
+        });
     }
 
     leafletData.getMap().then(function(map) {
-
-      $scope.map = map;
 
       mapGeoJson();
 
