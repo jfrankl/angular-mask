@@ -246,8 +246,8 @@ angular.module('angularMaskApp')
                                             "MVT"
                                         ],
                                         "location": [
-                                          -76.9962745500105,
-                                          38.90182856537368
+                                          -76.99468510055542,
+                                          38.900551983665146
                                         ],
                                         "address": "120 Runner Road",
                                         "occurred_from": "2014-05-20T00:00:00+00:00"
@@ -259,8 +259,8 @@ angular.module('angularMaskApp')
                                             "MVT"
                                         ],
                                         "location": [
-                                          -76.9962745500105,
-                                          38.90182856537368
+                                          -76.99452638626099,
+                                          38.9034203344932
                                         ],
                                         "address": "220 Runner Road",
                                         "occurred_from": "2014-05-19T19:52:00+00:00"
@@ -535,8 +535,8 @@ angular.module('angularMaskApp')
                                             "MVT"
                                         ],
                                         "location": [
-                                          -76.9962745500105,
-                                          38.90182856537368
+                                          -76.97527740478516,
+                                          38.90278963537611
                                         ],
                                         "address": "120 Runner Road",
                                         "occurred_from": "2014-05-20T00:00:00+00:00"
@@ -548,8 +548,8 @@ angular.module('angularMaskApp')
                                             "MVT"
                                         ],
                                         "location": [
-                                          -76.9962745500105,
-                                          38.90182856537368
+                                          -76.99527740478516,
+                                          38.90273963537611
                                         ],
                                         "address": "220 Runner Road",
                                         "occurred_from": "2014-05-19T19:52:00+00:00"
@@ -790,8 +790,8 @@ angular.module('angularMaskApp')
                                             "Aggravated Assault Firearm"
                                         ],
                                         "location": [
-                                            -77.0274697967444,
-                                            38.89458519895012
+                                          -77.02345132827757,
+                                          38.89705342419506
                                         ],
                                         "address": "1600 BLOCK MARGARET ST",
                                         "occurred_from": "2014-05-20T00:00:00+00:00"
@@ -803,8 +803,8 @@ angular.module('angularMaskApp')
                                             "Aggravated Assault Firearm"
                                         ],
                                         "location": [
-                                            -77.0279697967444,
-                                            38.84198519895012
+                                          -77.02376246452332,
+                                          38.89676117395676
                                         ],
                                         "address": "1600 BLOCK MARGARET ST",
                                         "occurred_from": "2014-05-19T19:52:00+00:00"
@@ -824,8 +824,8 @@ angular.module('angularMaskApp')
                                             "MVT"
                                         ],
                                         "location": [
-                                          -76.9962535500105,
-                                          38.90482856537368
+                                          -77.02544132827757,
+                                          38.89705542419506
                                         ],
                                         "address": "120 Runner Road",
                                         "occurred_from": "2014-05-20T00:00:00+00:00"
@@ -837,8 +837,8 @@ angular.module('angularMaskApp')
                                             "MVT"
                                         ],
                                         "location": [
-                                          -76.9962745500105,
-                                          38.90182856537368
+                                          -77.02355246452332,
+                                          38.89676217395676
                                         ],
                                         "address": "220 Runner Road",
                                         "occurred_from": "2014-05-19T19:52:00+00:00"
@@ -1121,8 +1121,8 @@ angular.module('angularMaskApp')
                                             "MVT"
                                         ],
                                         "location": [
-                                            -76.99345297358992,
-                                            38.884249171681485
+                                          -76.99363000793457,
+                                          38.883684269762625
                                         ],
                                         "address": "120 Runner Road",
                                         "occurred_from": "2014-05-20T00:00:00+00:00"
@@ -1134,8 +1134,8 @@ angular.module('angularMaskApp')
                                             "MVT"
                                         ],
                                         "location": [
-                                            -76.988178297358992,
-                                            38.854349171681485
+                                          -76.99263000793457,
+                                          38.876694269762625
                                         ],
                                         "address": "220 Runner Road",
                                         "occurred_from": "2014-05-19T19:52:00+00:00"

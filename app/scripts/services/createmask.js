@@ -13,7 +13,7 @@ angular.module('angularMaskApp')
       options: {
         outsideBoundary: [[-90, -360], [90, 360], [90, -360], [-90, 360]],
         stroke: false,
-        fillOpacity: 0.5,
+        fillOpacity: 0.8,
         color: '#000',
         clickable: true,
         layer: 'selectedMission',
