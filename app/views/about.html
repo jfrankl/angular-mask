@@ -1,4 +1,4 @@
-<div ng-controller="MaskCtrl" class="fullheight">
-    <leaflet defaults="defaults" center="philadelphia" geojson="geojson" layers="layers" markers="markers" height="100%" ng-style="{ 'width': mapWidth }"></leaflet>
-    <map-detail mission-cards="maskData" map="map" ng-show="displayDetailCard"></map-detail>
+<div ng-controller="MaskCtrl" class="fullheight" ng-class="{displaycard: displayDetailCard}">
+    <leaflet defaults="defaults" center="philadelphia" geojson="geojson" layers="layers" markers="markers" height="100%"></leaflet>
+    <map-detail mission-cards="maskData" map="map"></map-detail>
 </div>
