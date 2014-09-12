@@ -10,36 +10,6 @@
 angular.module('angularMaskApp')
   .controller('MaskCtrl', function ($scope, $rootScope, $timeout, leafletData, leafletHelpers, geodata, createMask, Mapzoomservice) {
     $scope.maskData = geodata.features[0].properties.related_info.recent_events;
-    function updateIcon(icon, value) {
-      icon['html'] = htmlIconTemplate(value);
-    }
-
-    function htmlIconTemplate(value) {
-      return '<div class="bount-icon" style="background-color: #FF5500">'+value+'<div>'
-    }
-
-    var local_icons = {
-      div_icon: {
-        type: 'div',
-        className: 'count-icon',
-        html: htmlIconTemplate(1),
-        opacity: 0.85,
-        color: '#000',
-        iconSize: [40, 40]
-      },
-    };
-
-    // function onEachFeature(feature, layer) {
-    //   var safeApply = leafletHelpers.safeApply, isDefined = leafletHelpers.isDefined, leafletScope = $scope, leafletGeoJSON = {};
-    //   layer.on({
-    //     click: function (e) {
-    //       safeApply(leafletScope, function () {
-    //         var geojson = feature;
-    //         $rootScope.$broadcast('leafletDirectiveMap.geojsonClick', geojson, e);
-    //       });
-    //     },
-    //   });
-    // }
 
     function standardGeojsonStyle(feature) {
       var eventModels = feature.properties.event_models,
@@ -73,52 +43,40 @@ angular.module('angularMaskApp')
       }
     };
 
-    $rootScope.$on('selectCard', function(event, card, happened) {
-        var data = card.data;
-        $scope.markers = [];
-        angular.forEach(data, function(d, key) {
-          updateIcon(local_icons.div_icon, key + 1);
-          $scope.markers.push({
-              lat: d.location[1],
-              lng: d.location[0],
-              message: 'My Added Marker Temporary',
-              layer: 'selectedMission',
-              icon: angular.copy(local_icons.div_icon)
-          });
-        })
-        if (!happened) {
-            $scope.markers = [];
-        }
+    $scope.displayDetailCard = false;
+
+    $rootScope.$on('mapDetails.markersGenerate', function(event, markers) {
+        addMarkers(markers);
     })
 
-    $scope.mapWidth = "100%";
-    $scope.displayDetailCard = false;
+    function addMarkers(markers) {
+        $scope.markers = [];
+        angular.forEach(markers, function(marker) {
+            $scope.markers.push(marker);
+        })
+    }
 
     function onGeojsonClick(map, recentEvents, latlngs, color, target) {
         $scope.maskData = recentEvents;
         $scope.previousView = [map.getCenter(), map.getZoom()];
-        map.fitBounds(latlngs);
         $scope.displayDetailCard = true;
-        $scope.mapWidth = "50%";
         $scope.mask = new createMask(latlngs, map).addTo(map);
         target.setStyle(maskGeojsonStyle(color)).bringToFront();
-        $scope.separated = true;
         $rootScope.$broadcast('addMask', $scope.maskData);
         $timeout(function(){
-            console.log('timeout');
-           map.invalidateSize(false);
+            $timeout(function(){
+                map.fitBounds(latlngs);
+            });
+            map.invalidateSize(false);
         });
     }
 
     function onMaskClick(map, mask, color, target) {
         mask.removeMask();
+        delete $scope.mask;
         target.setStyle(standardGeojsonStyle(target.feature));
-        $scope.mask = undefined;
-        $scope.mapWidth = "100%";
         $scope.displayDetailCard = false;
         map.setView($scope.previousView[0], $scope.previousView[1]);
-        map.invalidateSize(false);
-        $rootScope.$broadcast('deleteMask');
         $scope.markers = [];
         $timeout(function(){
             console.log('timeout');
@@ -148,56 +106,13 @@ angular.module('angularMaskApp')
 
       });
 
-      function focusOnMission(geojson, e) {
-
-        // target.setStyle({
-        //   fillOpacity: 0,
-        //   weight: 0
-        // });
-
-        // angular.forEach(target.feature.properties.missions, function(value, key) {
-        //   updateIcon(local_icons.div_icon, key + 1);
-        //   $scope.markers.push({
-        //       lat: value.location[1],
-        //       lng: value.location[0],
-        //       message: 'My Added Marker Temporary',
-        //       layer: 'selectedMission',
-        //       icon: angular.copy(local_icons.div_icon)
-        //   });
-        // })
-
-        // $scope.demoMask = new createMask(target._latlngs).addTo(map);
-
-        // $scope.demoMask.on('click', function(e) {
-        //   $scope.markers = [];
-        //   map.removeLayer(this);
-        //   target.setStyle({
-        //     fillOpacity: 0.6,
-        //     weight: 0
-        //   });
-        //   resetZoom();
-        // });
-
-      }
-
     });
-
-
-
-
-
-
-
-
-
-
-
 
     angular.extend($scope, {
       philadelphia: {
         lat: 38.8913,
         lng: -76.9940,
-        zoom: 13
+        zoom: 14
       },
       geojson: {
       },
@@ -241,11 +156,24 @@ angular.module('angularMaskApp')
         }
       },
       markers: [],
-      icons: local_icons,
+      // icons: local_icons,
       defaults: {
         scrollWheelZoom: false
       }
     });
+
+
+// function onEachFeature(feature, layer) {
+//   var safeApply = leafletHelpers.safeApply, isDefined = leafletHelpers.isDefined, leafletScope = $scope, leafletGeoJSON = {};
+//   layer.on({
+//     click: function (e) {
+//       safeApply(leafletScope, function () {
+//         var geojson = feature;
+//         $rootScope.$broadcast('leafletDirectiveMap.geojsonClick', geojson, e);
+//       });
+//     },
+//   });
+// }
 
 
   });

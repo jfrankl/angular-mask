@@ -9,17 +9,23 @@
 angular.module('angularMaskApp')
   .controller('mapDetailController', ['$scope', '$rootScope', 'createMask', function($scope, $rootScope, createMask) {
 
-    $scope.select = function(card) {
-        $scope.selected = card;
-        $rootScope.$emit('selectCard', card, $scope.hasHappened);
+    var local_icons = {
+      div_icon: {
+        type: 'div',
+        className: 'count-icon',
+        html: htmlIconTemplate(1),
+        opacity: 0.85,
+        color: '#000',
+        iconSize: [40, 40]
+      },
     };
 
-    init();
-
-    function init() {
-        $scope.select(_.first($scope.missionCards));
-        $scope.hasHappened = true;
-    }
+    $scope.select = function(card) {
+        console.log('select');
+        $scope.selected = card;
+        var markers = generateMarkers(card);
+        $rootScope.$emit('mapDetails.markersGenerate', markers);
+    };
 
     $rootScope.$on('addMask', function(event, mask) {
         $scope.select(_.first(mask));
@@ -27,6 +33,31 @@ angular.module('angularMaskApp')
 
     $scope.isSelected = function(card) {
         return angular.equals(card, $scope.selected);
+    }
+
+    function generateMarkers(card) {
+        var data = card.data,
+            markers = [];
+        console.log(local_icons);
+        angular.forEach(data, function(d, key) {
+          updateIcon(local_icons.div_icon, key + 1);
+          markers.push({
+              lat: d.location[1],
+              lng: d.location[0],
+              message: 'My FUNNN Marker Temporary',
+              layer: 'selectedMission',
+              icon: angular.copy(local_icons.div_icon)
+          });
+        })
+        return markers;
+    }
+
+    function updateIcon(icon, value) {
+      icon['html'] = htmlIconTemplate(value);
+    }
+
+    function htmlIconTemplate(value) {
+      return '<div class="bount-icon" style="background-color: #FF5500">'+value+'<div>'
     }
 
   }])
