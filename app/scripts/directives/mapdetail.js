@@ -6,7 +6,7 @@
  * @description
  * # mapDetail
  */
-angular.module('angularMaskApp')
+angular.module('ng')
   .controller('mapDetailController', ['$scope', '$rootScope', 'createMask', function($scope, $rootScope, createMask) {
 
     var local_icons = {
@@ -20,25 +20,32 @@ angular.module('angularMaskApp')
       },
     };
 
-    $scope.select = function(card) {
-        console.log('select');
-        $scope.selected = card;
+    this.select = function(card) {
+        angular.forEach($scope.missionCards, function(d, key) {
+            d.selected = angular.equals(card, d);
+        });
         var markers = generateMarkers(card);
         $rootScope.$emit('mapDetails.markersGenerate', markers);
     };
 
-    $rootScope.$on('addMask', function(event, mask) {
-        $scope.select(_.first(mask));
-    })
+    var that = this;
+
+    $scope.$watch("missionCards", function(newValue, oldValue) {
+        console.log(newValue, oldValue);
+        if (typeof newValue !== 'undefined' && newValue !== oldValue) {
+            that.select(_.first(newValue));
+        };
+    });
 
     $scope.isSelected = function(card) {
+        console.log('isSelected');
         return angular.equals(card, $scope.selected);
     }
 
     function generateMarkers(card) {
+        console.log('generateMarkers');
         var data = card.data,
             markers = [];
-        console.log(local_icons);
         angular.forEach(data, function(d, key) {
           updateIcon(local_icons.div_icon, key + 1);
           markers.push({
@@ -68,10 +75,27 @@ angular.module('angularMaskApp')
             missionCards: '=',
             map: '='
         },
+        transclude: true,
         controller: 'mapDetailController',
-        restrict: 'E',
-        link: function postLink(scope, element, attrs, ctrl) {
-
-        }
+        restrict: 'E'
+    };
+  })
+  .directive('mapDetailCard', function () {
+    return {
+      templateUrl: 'scripts/directives/templates/mapDetailCardTemplate.html',
+      require: "^mapDetail",
+      restrict: 'E',
+      scope: {
+        data: '=',
+        selected: '='
+      },
+      link: function postLink(scope, element, attrs, ctrl) {
+        console.log('mapDetailCardLinkingFunction');
+        element.on('click', function(a, b, c) {
+            scope.$apply(function(a, b, c){
+                ctrl.select(scope.data);
+            });
+        });
+      }
     };
   });
