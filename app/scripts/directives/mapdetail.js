@@ -79,23 +79,4 @@ angular.module('ng')
         controller: 'mapDetailController',
         restrict: 'E'
     };
-  })
-  .directive('mapDetailCard', function () {
-    return {
-      templateUrl: 'scripts/directives/templates/mapDetailCardTemplate.html',
-      require: "^mapDetail",
-      restrict: 'E',
-      scope: {
-        data: '=',
-        selected: '='
-      },
-      link: function postLink(scope, element, attrs, ctrl) {
-        console.log('mapDetailCardLinkingFunction');
-        element.on('click', function(a, b, c) {
-            scope.$apply(function(a, b, c){
-                ctrl.select(scope.data);
-            });
-        });
-      }
-    };
   });

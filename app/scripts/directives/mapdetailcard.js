@@ -6,20 +6,22 @@
 //  * @description
 //  * # mapDetailCard
 //  */
-// angular.module('angularMaskApp')
-//   .controller('mapDetailCardController', ['$scope', function($scope) {
-//   }])
-//   .directive('mapDetailCard', function () {
-//     return {
-//       templateUrl: 'scripts/directives/templates/mapDetailCardTemplate.html',
-//       require : "^mapDetail",
-//       restrict: 'E',
-//       controller: 'mapDetailCardController',
-//       scope: {
-//         data: '='
-//       },
-//       link: function postLink(scope, element, attrs, ctrl) {
-//         console.log(scope, element, attrs, ctrl);
-//       }
-//     };
-//   });
+angular.module('angularMaskApp')
+  .directive('mapDetailCard', function () {
+    return {
+      templateUrl: 'scripts/directives/templates/mapDetailCardTemplate.html',
+      require: "^mapDetail",
+      restrict: 'E',
+      scope: {
+        data: '=',
+        selected: '='
+      },
+      link: function postLink(scope, element, attrs, ctrl) {
+        element.on('click', function() {
+            scope.$apply(function(){
+                ctrl.select(scope.data);
+            });
+        });
+      }
+    };
+  });
