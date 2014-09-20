@@ -8,7 +8,7 @@
  * Service in the angularMaskApp.
  */
 angular.module('angularMaskApp')
-  .factory('createMask', ['leafletData', 'leafletHelpers', function (leafletData, leafletHelpers) {
+  .factory('createMask', function() {
     L.Mask = L.Polygon.extend({
       options: {
         outsideBoundary: [[-90, -360], [90, 360], [90, -360], [-90, 360]],
@@ -16,18 +16,12 @@ angular.module('angularMaskApp')
         fillOpacity: 0.8,
         color: '#000',
         clickable: true,
-        layer: 'selectedMission',
-        map: []
       },
-      initialize: function (maskBoundaries, map) {
-        this.options.map = map;
+      initialize: function (maskBoundaries) {
         L.Polygon.prototype.initialize.call(this, [this.options.outsideBoundary, maskBoundaries]);
       },
     });
-    L.Mask.prototype.removeMask = function() {
-      this.options.map.removeLayer(this);
-    }
     return L.Mask;
-  }]);
+  });
 
 
