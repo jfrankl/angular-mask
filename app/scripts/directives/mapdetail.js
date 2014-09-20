@@ -31,19 +31,16 @@ angular.module('ng')
     var that = this;
 
     $scope.$watch("missionCards", function(newValue, oldValue) {
-        console.log(newValue, oldValue);
         if (typeof newValue !== 'undefined' && newValue !== oldValue) {
             that.select(_.first(newValue));
         };
     });
 
     $scope.isSelected = function(card) {
-        console.log('isSelected');
         return angular.equals(card, $scope.selected);
     }
 
     function generateMarkers(card) {
-        console.log('generateMarkers');
         var data = card.data,
             markers = [];
         angular.forEach(data, function(d, key) {

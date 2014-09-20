@@ -17,6 +17,7 @@ angular.module('angularMaskApp')
         color: '#000',
         clickable: true,
       },
+      party: 0,
       initialize: function (maskBoundaries) {
         L.Polygon.prototype.initialize.call(this, [this.options.outsideBoundary, maskBoundaries]);
       },

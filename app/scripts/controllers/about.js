@@ -105,13 +105,11 @@ angular.module('angularMaskApp')
 	}
 
 	leafletData.getMap().then(function(map) {
-
 	  mapGeoJson();
-
 	});
 
 	$scope.$on('leafletDirectiveMap.geojsonClick', function(target, geojson, e){
-		if ($scope.mask == undefined) {
+		if (typeof $scope.mask === 'undefined') {
 		  openMapDetailMode(target, geojson, e);
 	  }
 	});
