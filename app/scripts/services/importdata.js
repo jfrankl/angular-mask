@@ -558,6 +558,40 @@ angular.module('angularMaskApp')
                                 "version": 1,
                                 "type": "recent_events",
                                 "event_model": "Peeling Out in Your Ford Focus"
+                            },
+                            {
+                                "importance": 2,
+                                "data": [
+                                    {
+                                        "occurred_to": "2014-05-20T00:00:00+00:00",
+                                        "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                        "event_classes": [
+                                            "Violence"
+                                        ],
+                                        "location": [
+                                          -76.93527740478516,
+                                          38.90278963537611
+                                        ],
+                                        "address": "200 N Toast Place",
+                                        "occurred_from": "2014-05-20T00:00:00+00:00"
+                                    },
+                                    {
+                                        "occurred_to": "2014-05-19T19:52:00+00:00",
+                                        "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                        "event_classes": [
+                                            "Violence"
+                                        ],
+                                        "location": [
+                                          -76.99627740478516,
+                                          38.90273963537611
+                                        ],
+                                        "address": "53 Taylor Road",
+                                        "occurred_from": "2014-05-19T19:52:00+00:00"
+                                    }
+                                ],
+                                "version": 1,
+                                "type": "recent_events",
+                                "event_model": "Fishing without a License"
                             }
                         ]
                     },

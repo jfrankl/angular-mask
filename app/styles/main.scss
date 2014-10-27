@@ -113,6 +113,8 @@ html, body, .fullheight {
 
 .active {
   background-color: #eee;
+  opacity: 1 !important;
+  cursor: default !important;
 }
 
 .angular-leaflet-map {
@@ -125,17 +127,18 @@ html, body, .fullheight {
 }
 
 .displaycard .angular-leaflet-map {
-  right: 50%;
+  right: 450px;
 }
 
 map-detail {
-  width: 50%;
+  width: 450px;
   top: 0;
   -webkit-transform: translate3d(100%, 0, 0);
   position: absolute;
   bottom: 0;
   right: 0;
   display: none;
+  overflow-x: hidden;
 }
 
 .displaycard map-detail {
@@ -143,8 +146,27 @@ map-detail {
   display: block;
 }
 
+map-detail-slider {
+  // -webkit-transform: translate3d(20px, 0, 0);
+  display: block;
+  transition: all 200ms ease-in-out;
+}
+
 map-detail-card {
   padding: 20px;
   display: block;
   cursor: pointer;
+  width: 320px;
+  float: left;
+  transition: all 200ms ease-in-out;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  &:hover {
+    opacity: .6;
+    background-color: #eee;
+  }
 }

@@ -31,6 +31,7 @@ angular.module('ng')
     var that = this;
 
     $scope.$watch("missionCards", function(newValue, oldValue) {
+        // console.log($scope);
         if (typeof newValue !== 'undefined' && newValue !== oldValue) {
             that.select(_.first(newValue));
         };
@@ -74,6 +75,24 @@ angular.module('ng')
         },
         transclude: true,
         controller: 'mapDetailController',
-        restrict: 'E'
+        restrict: 'E',
+        link: function postLink(scope, element, attrs, ctrl, transclude) {
+          scope.$watch("missionCards", function(newValue, oldValue) {
+              // console.log(element, scope);
+          });
+          // var b = angular.element(element.children());
+          // var c = angular.element(b).children();
+          // var d = c.children();
+          // console.log(element.outerWidth(), b, c, d);
+          // transclude(scope.$children, function(clone, scope) {
+          //   element.append(clone);
+          //   console.log(element, clone, scope);
+          // });
+          // element.on('click', function() {
+          //     scope.$apply(function(){
+          //         ctrl.select(scope.data);
+          //     });
+          // });
+        }
     };
   });

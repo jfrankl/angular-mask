@@ -1,1 +1,4 @@
-<map-detail-card ng-repeat="card in missionCards" ng-class="{active: card.selected}" data="card"></map-detail-card> {{selected}}
+<map-detail-slider class="clearfix">
+    <map-detail-card ng-repeat="card in missionCards" ng-class="{active: card.selected}" data="card"></map-detail-card>
+</map-detail-slider>
+{{selected}}
