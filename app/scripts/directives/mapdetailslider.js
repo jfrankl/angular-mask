@@ -17,6 +17,7 @@ angular.module('ng')
           var cards;
           var maxState;
           var offset;
+          var paddingLeft;
 
           scope.$watch("missionCards", function(newValue, oldValue) {
               maxState = newValue.length - 1;
@@ -49,17 +50,15 @@ angular.module('ng')
           var move = function(card, state, maxState) {
             console.log(card, state, maxState);
             if (state === 0) {
-              console.log('state first');
-              offset = 0 - card.offsetLeft + 10;
+              paddingLeft = 10;
             }
             else if (state === maxState) {
-              console.log('state last');
-              offset = 0 - card.offsetLeft + 120;
+              paddingLeft = 120;
             }
             else {
-              console.log('state middle');
-              offset = 0 - card.offsetLeft + 70;
+              paddingLeft = 70;
             }
+            offset = 0 - card.offsetLeft + paddingLeft;
             container.css('-webkit-transform', 'translate3d('+offset+'px, 0, 0)');
           };
 
