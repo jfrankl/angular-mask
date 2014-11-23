@@ -112,7 +112,7 @@ html, body, .fullheight {
 }
 
 .active {
-  background-color: #eee;
+  background-color: #fafafa;
   opacity: 1 !important;
   cursor: default !important;
 }
@@ -124,10 +124,9 @@ html, body, .fullheight {
   left: 0;
   top: 0;
   bottom: 0;
-}
-
-.displaycard .angular-leaflet-map {
-  right: 450px;
+  .displaycard & {
+    right: 450px;
+  }
 }
 
 map-detail {
@@ -137,27 +136,36 @@ map-detail {
   position: absolute;
   bottom: 0;
   right: 0;
-  display: none;
+  background-color: #eee;
   overflow-x: hidden;
+  .displaycard & {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
 }
 
-.displaycard map-detail {
-  -webkit-transform: translate3d(0, 0, 0);
-  display: block;
+map-detail-table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+  border-collapse: separate;
 }
 
 map-detail-slider {
   // -webkit-transform: translate3d(20px, 0, 0);
-  display: block;
+  display: table-row;
   transition: all 200ms ease-in-out;
 }
 
 map-detail-card {
+  vertical-align: top;
+  white-space: normal;
   padding: 20px;
-  display: block;
+  display: table-cell;
   cursor: pointer;
   width: 320px;
-  float: left;
+  margin-right: 10px;
+  background-color: #fff;
   transition: all 200ms ease-in-out;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -167,6 +175,6 @@ map-detail-card {
   user-select: none;
   &:hover {
     opacity: .6;
-    background-color: #eee;
+    // background-color: #eee;
   }
 }

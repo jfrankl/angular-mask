@@ -7,50 +7,50 @@
  * # mapDetail
  */
 angular.module('ng')
-  .controller('mapDetailSliderController', ['$scope', '$rootScope', function($scope, $rootScope) {
-
-    $scope.$watch("missionCards", function(newValue, oldValue) {
-        // console.log($scope);
-    });
-
-    $scope.isSelected = function(card) {
-        return angular.equals(card, $scope.selected);
-    }
-
-  }])
   .directive('mapDetailSlider', ['$timeout', function ($timeout) {
     return {
-        controller: 'mapDetailSliderController',
         restrict: 'E',
+        require: "^mapDetail",
         link: function postLink(scope, element, attrs, ctrl, transclude) {
           var container = element;
-          var parent;
-          var parentWidth;
+          var state;
           var cards;
-          var cardWidth;
-          var containerPadding;
+          var maxState;
 
           scope.$watch("missionCards", function(newValue, oldValue) {
-            $timeout(function(){
-              parent = _.first(container.parent());
-              parentWidth = parent.clientWidth;
-              cards = container.children();
-              cardWidth = _.first(container.children()).clientWidth;
-              containerPadding = (parentWidth - cardWidth) / 2
-              var count = 0;
-              console.log(parent.clientWidth);
-              _.each(cards, function(card) {
-                count += card.clientWidth;
-              });
-              container.css('width', count + 'px');
+              maxState = newValue.length - 1;
+              state = 0;
+              cards = {data: newValue, el: _.first(container).children};
               container.css('-webkit-transform', 'translate3d(0, 0, 0)');
-            });
           });
-          scope.$on('clickCard', function(event, card) {
-            var offset = 0 - card[0].offsetLeft + containerPadding;
-            console.log(card, offset);
-            container.css('-webkit-transform', 'translate3d('+offset+'px, 0, 0)');
+
+          scope.$on('slider.next', function(event, card) {
+            if (state < maxState) {
+              state += 1;
+              ctrl.select(cards.data[state]);
+              move(cards.el[state], state, maxState);
+            }
           })
+
+          scope.$on('slider.prev', function(event, card) {
+            if (state > 0) {
+              state -= 1;
+              ctrl.select(cards.data[state]);
+              move(cards.el[state], state, maxState);
+            }
+          })
+
+          scope.$on('clickCard', function(event, card) {
+            state = card.index;
+            move(_.first(card.data), state, maxState);
+          })
+
+          var move = function(card, state, maxState) {
+            console.log(card, state, maxState);
+            var offset = 0 - card.offsetLeft + 30;
+            container.css('-webkit-transform', 'translate3d('+offset+'px, 0, 0)');
+          };
+
         }
     };
   }]);

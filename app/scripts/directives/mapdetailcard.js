@@ -21,7 +21,7 @@ angular.module('angularMaskApp')
             scope.$apply(function(){
                 ctrl.select(scope.data);
             });
-            scope.$emit('clickCard', element);
+            scope.$emit('clickCard', {data: element, index: parseInt(attrs.index)});
         });
       }
     };

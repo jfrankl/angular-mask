@@ -1,4 +1,9 @@
-<map-detail-slider class="clearfix">
-    <map-detail-card ng-repeat="card in missionCards" ng-class="{active: card.selected}" data="card"></map-detail-card>
-</map-detail-slider>
+<h3>Cards</h3>
+<h4 ng-click="sliderPrev()">Previous</h4>
+<h4 ng-click="sliderNext()">Next</h4>
+<map-detail-table ng-swipe-left="fun()">
+    <map-detail-slider>
+        <map-detail-card ng-repeat="card in missionCards" ng-class="{active: card.selected}" data="card" data-index="{{ $index }}"></map-detail-card>
+    </map-detail-slider>
+</map-detail-table>
 {{selected}}
