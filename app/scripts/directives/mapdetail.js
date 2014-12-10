@@ -30,16 +30,6 @@ angular.module('ng')
 
     var that = this;
 
-    $scope.sliderNext = function () {
-      $scope.$emit('slider.next');
-      console.log('sliderNext');
-    }
-    $scope.sliderPrev = function () {
-      $scope.$emit('slider.prev');
-      console.log('sliderPrev');
-    }
-
-
     $scope.$watch("missionCards", function(newValue, oldValue) {
         // console.log($scope);
         if (typeof newValue !== 'undefined' && newValue !== oldValue) {

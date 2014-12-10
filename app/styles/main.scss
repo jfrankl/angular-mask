@@ -112,7 +112,7 @@ html, body, .fullheight {
 }
 
 .active {
-  background-color: #fafafa;
+  background-color: #FAF8D9;
   opacity: 1 !important;
   cursor: default !important;
 }
@@ -147,14 +147,17 @@ map-detail-table {
   display: table;
   width: 100%;
   table-layout: fixed;
+  transition: all 200ms ease-in-out;
   border-spacing: 10px;
   border-collapse: separate;
 }
 
-map-detail-slider {
-  // -webkit-transform: translate3d(20px, 0, 0);
+map-detail-row {
   display: table-row;
-  transition: all 200ms ease-in-out;
+}
+
+map-detail-slider {
+  display: block;
 }
 
 map-detail-card {
