@@ -13,16 +13,13 @@ angular.module('ng')
         require: "^mapDetail",
         link: function postLink(scope, element, attrs, ctrl, transclude) {
           var container = element.find('map-detail-table');
-          console.log(container);
           var state;
           var cards;
           var maxState;
           var offset;
           var paddingLeft;
-
           scope.$watch("missionCards", function(newValue, oldValue) {
               maxState = newValue.length - 1;
-              console.log(container, 'cont');
               state = 0;
               cards = {data: newValue, el: container.find('map-detail-card')};
               container.css('-webkit-transform', 'translate3d(0, 0, 0)');
@@ -32,7 +29,6 @@ angular.module('ng')
             if (state < maxState) {
               state += 1;
               ctrl.select(cards.data[state]);
-              console.log(cards, cards.el[state], state);
               move(cards.el[state], state, maxState);
             }
           }
@@ -41,7 +37,6 @@ angular.module('ng')
             if (state > 0) {
               state -= 1;
               ctrl.select(cards.data[state]);
-              console.log(cards, cards.el[state], state);
               move(cards.el[state], state, maxState);
             }
           }
@@ -52,7 +47,6 @@ angular.module('ng')
           })
 
           var move = function(card, state, maxState) {
-            console.log(card, state, maxState);
             if (state === 0) {
               paddingLeft = 10;
             }

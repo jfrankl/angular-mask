@@ -14,9 +14,20 @@ angular.module('angularMaskApp')
       restrict: 'E',
       scope: {
         data: '=',
-        selected: '='
       },
       link: function postLink(scope, element, attrs, ctrl) {
+        // var run = 0;
+        // if (scope.data.selected) {
+        //   run == 1;
+        //   element.removeClass('now, before, after').addClass('now');
+        // }
+        // else if (run == 0) {
+        //   element.removeClass('now, before, after').addClass('before');
+        // }
+        // else {
+        //   element.removeClass('now, before, after').addClass('after');
+        // }
+        // console.log(scope.data.ding);
         element.on('click', function() {
             scope.$apply(function(){
                 ctrl.select(scope.data);

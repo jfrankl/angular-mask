@@ -21,8 +21,22 @@ angular.module('ng')
     };
 
     this.select = function(card) {
+        var count = $scope.missionCards;
+        var activeIndex = _.indexOf($scope.missionCards, card);
         angular.forEach($scope.missionCards, function(d, key) {
-            d.selected = angular.equals(card, d);
+          d.state = "";
+          if ((key + 1 >= activeIndex) && (key - 1 <= activeIndex)) {
+            d.state += "visible ";
+          }
+          if (key === activeIndex) {
+            d.state += "active"; 
+          }
+          else if (key < activeIndex) {
+            d.state += "previous"; 
+          }
+          else if (key > activeIndex) {
+            d.state += "next"; 
+          }
         });
         var markers = generateMarkers(card);
         $rootScope.$emit('mapDetails.markersGenerate', markers);

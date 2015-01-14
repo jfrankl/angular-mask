@@ -6,7 +6,7 @@
         </map-detail-nav>
         <map-detail-table>
             <map-detail-row>
-                <map-detail-card ng-repeat="card in missionCards" ng-class="{active: card.selected}" data="card" data-index="{{ $index }}"></map-detail-card>
+                <map-detail-card ng-repeat="card in missionCards" ng-class="card.state" ng-style="card.zindex" data="card" data-index="{{ $index }}"></map-detail-card>
             </map-detail-row>
         </map-detail-table>
     </map-detail-slider>

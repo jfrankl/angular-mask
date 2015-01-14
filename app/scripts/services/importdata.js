@@ -566,6 +566,40 @@ angular.module('angularMaskApp')
                                         "occurred_to": "2014-05-20T00:00:00+00:00",
                                         "self": "https://staging.hunchlab.com/api/events/5514611/",
                                         "event_classes": [
+                                            "MVT"
+                                        ],
+                                        "location": [
+                                          -76.97527740478516,
+                                          38.90278963537611
+                                        ],
+                                        "address": "120 Runner Road",
+                                        "occurred_from": "2014-05-20T00:00:00+00:00"
+                                    },
+                                    {
+                                        "occurred_to": "2014-05-19T19:52:00+00:00",
+                                        "self": "https://staging.hunchlab.com/api/events/5514584/",
+                                        "event_classes": [
+                                            "MVT"
+                                        ],
+                                        "location": [
+                                          -76.99527740478516,
+                                          38.90273963537611
+                                        ],
+                                        "address": "2220 Runner Road",
+                                        "occurred_from": "2014-05-19T19:52:00+00:00"
+                                    }
+                                ],
+                                "version": 1,
+                                "type": "recent_events",
+                                "event_model": "Peeling Outs in Your Ford Focus"
+                            },
+                            {
+                                "importance": 2,
+                                "data": [
+                                    {
+                                        "occurred_to": "2014-05-20T00:00:00+00:00",
+                                        "self": "https://staging.hunchlab.com/api/events/5514611/",
+                                        "event_classes": [
                                             "Violence"
                                         ],
                                         "location": [
